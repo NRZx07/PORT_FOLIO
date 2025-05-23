@@ -32,7 +32,7 @@ const experiences = [
   },
   {
     job: "JAVA DEVELOPER",
-    company: "PINNACLE",
+    company: "PINNACLE LABS",
     date: "2024 - Present",
     responsibilities: [
    "Developing backend applications using Java.",

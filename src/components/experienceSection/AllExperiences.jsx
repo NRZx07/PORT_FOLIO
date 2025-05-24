@@ -31,12 +31,12 @@ const experiences = [
     ],
   },
   {
-    job: "JAVA DEVELOPER",
+    job: "WEB DEVELOPER",
     company: "PINNACLE LABS",
     date: "2024 - Present",
     responsibilities: [
-   "Developing backend applications using Java.",
-"Participating in object-oriented system design.",
+   "Developing backend applications using nodejs.",
+"Participating in real world projects.",
 "Working on performance tuning and debugging.",
 "Generating new ideas for modular code structure.",
 

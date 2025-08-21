@@ -9,29 +9,110 @@
     />
 
     <!-- 🔹 Basic SEO -->
-    <title>NJ Portfolio - Niraj Jha</title>
-    <meta name="description" content="Personal portfolio of Niraj Jha, showcasing projects, skills, and achievements in software development and web technologies." />
-    <meta name="keywords" content="Niraj Jha, Portfolio, Web Developer, React Developer, Software Engineer, Projects, Resume" />
+    <title>Niraj Jha - Web Developer & React Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Official portfolio of Niraj Jha - Web Developer & React Developer. Explore projects, skills, resume, and achievements in software development and modern web technologies."
+    />
+    <meta
+      name="keywords"
+      content="Niraj Jha, Web Developer, React Developer, Portfolio, Software Engineer, Projects, Resume"
+    />
     <meta name="author" content="Niraj Jha" />
 
     <!-- 🔹 Open Graph (for social media preview) -->
-    <meta property="og:title" content="NJ Portfolio - Niraj Jha" />
-    <meta property="og:description" content="Explore my portfolio showcasing projects, skills, and achievements in software development." />
+    <meta property="og:title" content="Niraj Jha - Web Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore Niraj Jha's portfolio showcasing projects, skills, and achievements in software development and web technologies."
+    />
     <meta property="og:image" content="https://nirajjha.com.np/N.png" />
     <meta property="og:url" content="https://nirajjha.com.np" />
     <meta property="og:type" content="website" />
 
     <!-- 🔹 Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="NJ Portfolio - Niraj Jha" />
-    <meta name="twitter:description" content="Explore my portfolio showcasing projects, skills, and achievements in software development." />
+    <meta name="twitter:title" content="Niraj Jha - Web Developer Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Explore Niraj Jha's portfolio showcasing projects, skills, and achievements in web development."
+    />
     <meta name="twitter:image" content="https://nirajjha.com.np/N.png" />
 
     <!-- 🔹 Canonical URL -->
     <link rel="canonical" href="https://nirajjha.com.np/" />
+
+    <!-- 🔹 Structured Data (Person Schema) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Niraj Jha",
+      "url": "https://nirajjha.com.np/",
+      "image": "https://nirajjha.com.np/N.png",
+      "jobTitle": "Web Developer & React Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelancer"
+      },
+      "sameAs": [
+        "https://github.com/NRZx07",
+        "https://www.linkedin.com/in/your-linkedin",
+        "https://twitter.com/your-twitter"
+      ]
+    }
+    </script>
+
+    <!-- 🔹 Structured Data (FAQ Schema) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is Niraj Jha?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Niraj Jha is a Web Developer and React Developer passionate about building modern web applications and software solutions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What skills does Niraj Jha have?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Niraj Jha specializes in React, JavaScript, Node.js, MongoDB, and modern web technologies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I contact Niraj Jha?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can reach out via the contact form on his portfolio website at https://nirajjha.com.np/ or connect on LinkedIn."
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- 🔹 SEO-Friendly Content (fallback if JS fails) -->
+    <noscript>
+      <h1>Niraj Jha - Web Developer & React Developer</h1>
+      <h2>Projects</h2>
+      <p>Explore my web development projects built using React, Node.js, and MongoDB.</p>
+
+      <h2>Skills</h2>
+      <p>React, JavaScript, Node.js, MongoDB, Git, DevOps basics.</p>
+
+      <h2>Contact</h2>
+      <p>Visit <a href="https://nirajjha.com.np">nirajjha.com.np</a> or connect with me on LinkedIn.</p>
+    </noscript>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
